@@ -1,0 +1,48 @@
+@import url(./fonts.css);
+@import url(./variable.css);
+
+.header{
+  background-image:url(../img/Rectangle\ 22.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  height: 100%;
+}
+.header__info{
+  height: 900px;
+}
+.info__box{
+  background-color: #0E0E0E;
+}
+.info__box__text{
+  font-family:var(--RR);
+  font-size: 18px;
+  line-height: 21px;
+  max-width: 1158px;
+  width: 100%;
+  margin-left: 45px;
+}
+.header__info{
+  position: relative;
+  height: 900px;
+}
+.info__box{
+  position: absolute;
+  bottom: 0px;
+}
+.info__box__number p{
+  font-weight: 900;
+  font-family: var(--RB);
+  font-size: 32px;
+  line-height: 42px;
+}
+.info__box--title__number{
+  font-family: var(--RB);
+  font-weight: 900;
+}
+.header::after{
+  display: none;
+}
+#mb{
+  margin: 100px 0;
+}

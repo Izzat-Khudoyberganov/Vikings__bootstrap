@@ -1,0 +1,23 @@
+:root{
+  --RL: Roboto__Light;
+  --RR: Roboto__Normal;
+  --RB: Roboto__Bold;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #0E0E0E;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+.text-green{
+  color: #85CCDC;
+}
